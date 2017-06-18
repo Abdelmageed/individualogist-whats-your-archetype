@@ -943,103 +943,31 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_linkstate__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_preact_hyperscript_h__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_preact_hyperscript_h___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_preact_hyperscript_h__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_quiz__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_quiz___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__components_quiz__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_form__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_slider__ = __webpack_require__(15);
 
 
 
 
 
 
-class Form extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
-  render() {
-    return __WEBPACK_IMPORTED_MODULE_4_preact_hyperscript_h___default.a.form({
-      onsubmit: e => {
-        e.preventDefault();
-        this.props.updateFormData(this.state);
-      }
-    }, [
-      __WEBPACK_IMPORTED_MODULE_4_preact_hyperscript_h___default.a.input({
-        placeholder: 'Enter your name',
-        onchange: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3_linkstate__["a" /* default */])(this, 'name'),
-      }),
-      __WEBPACK_IMPORTED_MODULE_4_preact_hyperscript_h___default.a.input({
-        placeholder: 'Enter your DOB in MM/DD/YYY format:',
-        onchange: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3_linkstate__["a" /* default */])(this, 'dob'),
-      }),
-      __WEBPACK_IMPORTED_MODULE_4_preact_hyperscript_h___default.a.button('Submit'),
-    ]);
-  }
-}
 
-class Slider extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
-  componentDidMount() {
-    fetch('assets/understanding-numerology.srt')
-      .then(r => r.text())
-      .then(__WEBPACK_IMPORTED_MODULE_1_parse_srt___default.a)
-      .then(srt => {
-        // console.log(`srt:`, srt);
-        this.setState({ srt });
-      })
-    this.ref.play()
-  }
 
-  render() {
-    return __WEBPACK_IMPORTED_MODULE_4_preact_hyperscript_h___default.a.div([
-      __WEBPACK_IMPORTED_MODULE_4_preact_hyperscript_h___default.a.div({
-        style: {
-          width: '100%',
-          height: '100vw',
-        },
-        onclick: e => {
-          // console.log('hi');
-          if (this.ref.paused) {
-            this.ref.play();
-          } else {
-            this.ref.pause();
-          }
-        },
-      }, [
-        // this.state.currentTime,
-        this.state.currentSrt
-          ? __WEBPACK_IMPORTED_MODULE_4_preact_hyperscript_h___default()(__WEBPACK_IMPORTED_MODULE_2_preact_markup___default.a, { markup: this.state.currentSrt })
-          : __WEBPACK_IMPORTED_MODULE_4_preact_hyperscript_h___default.a.p('Loading...'),
-        // JSON.stringify(this.props.formData, null, 2)
-      ]),
-      __WEBPACK_IMPORTED_MODULE_4_preact_hyperscript_h___default.a.audio({
-        // controls: true,
-        src: 'assets/understanding-numerology.mp3',
-        ref: ref => this.ref = ref,
-        ontimeupdate: e => {
-          const currentTime = e.target.currentTime;
-          if (this.state.srt) {
-            for (const srt of this.state.srt) {
-              if (currentTime < srt.end) {
-                // let currentSrt = srt.text;
-                // const variable = currentSrt.match(/\{\{(.*)\}\}/g)
-                const currentSrt = srt.text
-                  .replace(/\{\{name\}\}/g, `"${this.props.formData.name}"`)
-                this.setState({ currentTime, currentSrt });
-                break;
-              }
-            }
-          }
-        },
-      })
-    ])
-  }
-}
+
 
 class App extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
   render() {
-    return __WEBPACK_IMPORTED_MODULE_4_preact_hyperscript_h___default.a.div([
-      // h.header('Logo/header'),
-      this.state.formData
-      ? __WEBPACK_IMPORTED_MODULE_4_preact_hyperscript_h___default()(Slider, { formData: this.state.formData })
-      : __WEBPACK_IMPORTED_MODULE_4_preact_hyperscript_h___default()(Form, { updateFormData: formData => this.setState({ formData }) }),
-    ]);
+    return !this.state.quizData
+      ? __WEBPACK_IMPORTED_MODULE_4_preact_hyperscript_h___default()(__WEBPACK_IMPORTED_MODULE_5__components_quiz__["default"], { onFinish: quizData => this.setState({ quizData }) })
+      : !this.state.formData
+      ? __WEBPACK_IMPORTED_MODULE_4_preact_hyperscript_h___default()(__WEBPACK_IMPORTED_MODULE_6__components_form__["a" /* default */], { onSubmit: formData => this.setState({ formData }) })
+      : __WEBPACK_IMPORTED_MODULE_4_preact_hyperscript_h___default()(__WEBPACK_IMPORTED_MODULE_7__components_slider__["a" /* default */], this.state);
   }
 }
 
-__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_preact__["render"])(__WEBPACK_IMPORTED_MODULE_4_preact_hyperscript_h___default()(App), document.body)
+__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_preact__["render"])(__WEBPACK_IMPORTED_MODULE_4_preact_hyperscript_h___default()(App), document.body);
 
 
 /***/ }),
@@ -1349,6 +1277,128 @@ function toInlineStyle (styles) {
 function format (key, value) {
   return key + ':' + value + ';'
 }
+
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed: Error: ENOENT: no such file or directory, open 'C:\\Users\\x\\Documents\\Work\\AaronL\\projects\\whats-your-archetype\\components\\quiz\\index.js'");
+
+/***/ }),
+/* 14 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_preact__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_preact___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_preact__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_preact_hyperscript_h__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_preact_hyperscript_h___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_preact_hyperscript_h__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_linkstate__ = __webpack_require__(1);
+
+
+
+
+class Form extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
+  render() {
+    return __WEBPACK_IMPORTED_MODULE_1_preact_hyperscript_h___default.a.form({
+      onSubmit: e => {
+        e.preventDefault();
+        this.props.onSubmit(this.state);
+      }
+    }, [
+      __WEBPACK_IMPORTED_MODULE_1_preact_hyperscript_h___default.a.input({
+        type: 'name',
+        placeholder: 'Name',
+        onchange: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_linkstate__["a" /* default */])(this, 'name'),
+      }),
+      __WEBPACK_IMPORTED_MODULE_1_preact_hyperscript_h___default.a.input({
+        type: 'email',
+        placeholder: 'Email',
+        onchange: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_linkstate__["a" /* default */])(this, 'email'),
+      }),
+      __WEBPACK_IMPORTED_MODULE_1_preact_hyperscript_h___default.a.button('Submit'),
+    ]);
+  }
+}
+/* harmony export (immutable) */ __webpack_exports__["a"] = Form;
+
+
+
+
+/***/ }),
+/* 15 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_preact__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_preact___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_preact__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_preact_hyperscript_h__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_preact_hyperscript_h___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_preact_hyperscript_h__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_linkstate__ = __webpack_require__(1);
+
+
+
+
+class Slider extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
+  componentDidMount() {
+    fetch('assets/understanding-numerology.srt')
+      .then(r => r.text())
+      .then(parseSrt)
+      .then(srt => {
+        // console.log(`srt:`, srt);
+        this.setState({ srt });
+      })
+    this.ref.play()
+  }
+
+  render() {
+    return __WEBPACK_IMPORTED_MODULE_1_preact_hyperscript_h___default.a.div([
+      __WEBPACK_IMPORTED_MODULE_1_preact_hyperscript_h___default.a.div({
+        style: {
+          width: '100%',
+          height: '100vw',
+        },
+        onclick: e => {
+          // console.log('hi');
+          if (this.ref.paused) {
+            this.ref.play();
+          } else {
+            this.ref.pause();
+          }
+        },
+      }, [
+        // this.state.currentTime,
+        this.state.currentSrt
+        ? __WEBPACK_IMPORTED_MODULE_1_preact_hyperscript_h___default()(markup, { markup: this.state.currentSrt })
+        : __WEBPACK_IMPORTED_MODULE_1_preact_hyperscript_h___default.a.p('Loading...'),
+        // JSON.stringify(this.props.formData, null, 2)
+      ]),
+      __WEBPACK_IMPORTED_MODULE_1_preact_hyperscript_h___default.a.audio({
+        // controls: true,
+        src: 'assets/understanding-numerology.mp3',
+        ref: ref => this.ref = ref,
+        ontimeupdate: e => {
+          const currentTime = e.target.currentTime;
+          if (this.state.srt) {
+            for (const srt of this.state.srt) {
+              if (currentTime < srt.end) {
+                // let currentSrt = srt.text;
+                // const variable = currentSrt.match(/\{\{(.*)\}\}/g)
+                const currentSrt = srt.text
+                  .replace(/\{\{name\}\}/g, `"${this.props.formData.name}"`)
+                this.setState({ currentTime, currentSrt });
+                break;
+              }
+            }
+          }
+        },
+      })
+    ])
+  }
+}
+/* harmony export (immutable) */ __webpack_exports__["a"] = Slider;
+
 
 
 /***/ })
