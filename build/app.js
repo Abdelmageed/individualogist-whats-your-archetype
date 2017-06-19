@@ -1873,8 +1873,8 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_preact__["render"])(h(App), do
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_preact_hyperstyler__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_preact_hyperstyler___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_preact_hyperstyler__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_archetype_comment1_png__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_archetype_comment1_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__assets_archetype_comment1_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_comment_logo_png__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_comment_logo_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__assets_comment_logo_png__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__style_styl__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__style_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__style_styl__);
 
@@ -1884,7 +1884,7 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_preact__["render"])(h(App), do
 const h = __WEBPACK_IMPORTED_MODULE_0_preact_hyperstyler___default()(__WEBPACK_IMPORTED_MODULE_2__style_styl___default.a);
 
 /* harmony default export */ __webpack_exports__["a"] = (h.div('.outer', [h.div('.container', [
-  h.img({ src: __WEBPACK_IMPORTED_MODULE_1__assets_archetype_comment1_png___default.a }),
+  h.img({ src: __WEBPACK_IMPORTED_MODULE_1__assets_comment_logo_png___default.a }),
   h.div('.heading', 'What archetype did you get? Let us know in the comments below!'),
   // // rendered statically outside of ths app, as it doesn't play well with dynamic DOM changes
   // h.div({
@@ -1914,7 +1914,7 @@ const h = __WEBPACK_IMPORTED_MODULE_0_preact_hyperstyler___default()(__WEBPACK_I
 const h = __WEBPACK_IMPORTED_MODULE_0_preact_hyperstyler___default()(__WEBPACK_IMPORTED_MODULE_2__style_styl___default.a);
 
 /* harmony default export */ __webpack_exports__["a"] = (h.header([
-  h.img({ src: __WEBPACK_IMPORTED_MODULE_1__assets_individualogist_logo2_png___default.a }),
+  h.img({ src: __WEBPACK_IMPORTED_MODULE_1__assets_individualogist_logo2_png__["default"] }),
   h.p('.heading', 'FREE PERSONALITY READING'),
   h.p('.subtitle', 'What’s Your Archetype?'),
   h.p('.subtext', 'Individuation Archetype Explorer®'),
@@ -2051,18 +2051,19 @@ class Quiz extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
 
 "use strict";
 /* harmony default export */ __webpack_exports__["a"] = ({
-  ruler: { title: 'The Ruler' },
-  hero: { title: 'The Hero' },
-  member: { title: 'The Member' },
+  advocate: { title: 'The Advocate' },
   caregiver: { title: 'The Caregiver' },
   creator: { title: 'The Creator' },
-  magician: { title: 'The Magician' },
-  lover: { title: 'The Lover' },
+  explorer: { title: 'The Explorer' },
+  hero: { title: 'The Hero' },
   innocent: { title: 'The Innocent' },
   jester: { title: 'The Jester' },
-  explorer: { title: 'The Explorer' },
-  sage: { title: 'The Sage' },
+  lover: { title: 'The Lover' },
+  magician: { title: 'The Magician' },
+  member: { title: 'The Member' },
   outlaw: { title: 'The Outlaw' },
+  ruler: { title: 'The Ruler' },
+  sage: { title: 'The Sage' },
 });
 
 
@@ -2493,16 +2494,32 @@ function format (key, value) {
 
 
 /***/ }),
-/* 37 */
-/***/ (function(module, exports, __webpack_require__) {
+/* 37 */,
+/* 38 */
+/***/ (function(module, exports) {
 
-module.exports = __webpack_require__.p + "build/assets/archetype-comment1.png";
+throw new Error("Module build failed: Error: ENOENT: no such file or directory, open 'C:\\Users\\x\\Documents\\Work\\AaronL\\projects\\whats-your-archetype\\assets\\individualogist-logo2.png'");
 
 /***/ }),
-/* 38 */
+/* 39 */,
+/* 40 */,
+/* 41 */,
+/* 42 */,
+/* 43 */,
+/* 44 */,
+/* 45 */,
+/* 46 */,
+/* 47 */,
+/* 48 */,
+/* 49 */,
+/* 50 */,
+/* 51 */,
+/* 52 */,
+/* 53 */,
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/individualogist-logo2.png";
+module.exports = __webpack_require__.p + "build/assets/comment-logo.png";
 
 /***/ })
 /******/ ]);
