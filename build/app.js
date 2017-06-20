@@ -60,10 +60,10 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/wp-content/themes/individualogist/whats-your-archetype/";
+/******/ 	__webpack_require__.p = "/individualogist-whats-your-archetype/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 81);
+/******/ 	return __webpack_require__(__webpack_require__.s = 82);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -475,7 +475,7 @@
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var H = __webpack_require__(72)
+var H = __webpack_require__(73)
 
 module.exports = preactHyperscriptStyler
 
@@ -9600,20 +9600,26 @@ module.exports = __webpack_require__.p + "build/assets/images/misc/preview-page-
 
 /***/ }),
 /* 63 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "build/assets/images/pop-up/new-deluxe-archetype-report-with-bonuses.png";
+
+/***/ }),
+/* 64 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__quiz__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__quiz__ = __webpack_require__(93);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__quiz__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__report_intro__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__report_intro__ = __webpack_require__(94);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_1__report_intro__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__form__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__form__ = __webpack_require__(91);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__form__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__slider__ = __webpack_require__(94);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__slider__ = __webpack_require__(95);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_3__slider__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__comments__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__comments__ = __webpack_require__(89);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_4__comments__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__header__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__header__ = __webpack_require__(92);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_5__header__["a"]; });
 
 
@@ -9625,25 +9631,19 @@ module.exports = __webpack_require__.p + "build/assets/images/misc/preview-page-
 
 
 /***/ }),
-/* 64 */
+/* 65 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_preact__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_preact___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_preact__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_preact_hyperscript_h__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_preact_hyperscript_h__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_preact_hyperscript_h___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_preact_hyperscript_h__);
 
 
 
 window.addEventListener('error', e => __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_preact__["render"])(__WEBPACK_IMPORTED_MODULE_1_preact_hyperscript_h___default.a.pre(e.error.stack), document.body));
 
-
-/***/ }),
-/* 65 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
 
 /***/ }),
 /* 66 */
@@ -9662,10 +9662,16 @@ window.addEventListener('error', e => __webpack_require__.i(__WEBPACK_IMPORTED_M
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"app":"_3L8enmCb5b03T_KXhYcHJs","header":"KTzQ8AWOFWoWmu_iTi-7N","component":"_1IGvSTONPeSzXlEg1v7gYc","quiz":"_3IR1HGgBeodUcIOeNVadlY"};
 
 /***/ }),
 /* 69 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+module.exports = {"app":"_3L8enmCb5b03T_KXhYcHJs","header":"KTzQ8AWOFWoWmu_iTi-7N","component":"_1IGvSTONPeSzXlEg1v7gYc","quiz":"_3IR1HGgBeodUcIOeNVadlY"};
+
+/***/ }),
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {var require;var require;/*!
@@ -11984,7 +11990,7 @@ module.exports = localforage_js;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(18)))
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 (function (global, factory) {
@@ -12090,7 +12096,7 @@ return parseSRT;
 
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12117,7 +12123,7 @@ return parseSRT;
 
 
 
-var punycode = __webpack_require__(113);
+var punycode = __webpack_require__(114);
 var util = __webpack_require__(215);
 
 exports.parse = urlParse;
@@ -12193,7 +12199,7 @@ var protocolPattern = /^([a-z0-9.+-]+:)/i,
       'gopher:': true,
       'file:': true
     },
-    querystring = __webpack_require__(116);
+    querystring = __webpack_require__(117);
 
 function urlParse(url, parseQueryString, slashesDenoteHost) {
   if (url && util.isObject(url) && url instanceof Url) return url;
@@ -12829,10 +12835,10 @@ Url.prototype.parseHost = function() {
 
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var ph = __webpack_require__(78)
+var ph = __webpack_require__(79)
 
 var h = ph.createElement
 
@@ -12842,7 +12848,7 @@ module.exports = h
 
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, exports) {
 
 /**
@@ -12871,7 +12877,7 @@ function dashLower (c) {
 
 
 /***/ }),
-/* 74 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -12926,7 +12932,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12979,11 +12985,11 @@ exports['default'] = function (h) {
 module.exports = exports['default'];
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var parseSelector = __webpack_require__(77)
+var parseSelector = __webpack_require__(78)
 
 module.exports = parse
 
@@ -13031,7 +13037,7 @@ function isObj (val) { return typeof val === 'object' }
 
 
 /***/ }),
-/* 77 */
+/* 78 */
 /***/ (function(module, exports) {
 
 
@@ -13066,15 +13072,15 @@ function parseSelector (selector) {
 
 
 /***/ }),
-/* 78 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var createHelpers = __webpack_require__(75)
-var toInlineStyle = __webpack_require__(79)
-var parse = __webpack_require__(76)
-var classNames = __webpack_require__(74)
-var ref = __webpack_require__(80);
+var createHelpers = __webpack_require__(76)
+var toInlineStyle = __webpack_require__(80)
+var parse = __webpack_require__(77)
+var classNames = __webpack_require__(75)
+var ref = __webpack_require__(81);
 var h = ref.h;
 
 exports.createComponent = createComponent
@@ -13123,11 +13129,11 @@ function createComponent (Component) {
 
 
 /***/ }),
-/* 79 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var hyphenate = __webpack_require__(73)
+var hyphenate = __webpack_require__(74)
 
 module.exports = toInlineStyle
 
@@ -13151,7 +13157,7 @@ function format (key, value) {
 
 
 /***/ }),
-/* 80 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 !function() {
@@ -13556,33 +13562,33 @@ function format (key, value) {
 //# sourceMappingURL=preact.js.map
 
 /***/ }),
-/* 81 */
+/* 82 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_preact__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_preact___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_preact__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_parse_srt__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_parse_srt__ = __webpack_require__(71);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_parse_srt___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_parse_srt__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_preact_markup__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_preact_markup___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_preact_markup__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_linkstate__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_url__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_url__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_url___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_url__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_localforage__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_localforage__ = __webpack_require__(70);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_localforage___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_localforage__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_preact_hyperstyler__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_preact_hyperstyler___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_preact_hyperstyler__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__handle_errors__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ionicons_dist_css_ionicons_css__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__handle_errors__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ionicons_dist_css_ionicons_css__ = __webpack_require__(68);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ionicons_dist_css_ionicons_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_ionicons_dist_css_ionicons_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_animate_css__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_animate_css__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_animate_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_animate_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__font_nunito_light_css__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__font_nunito_light_css__ = __webpack_require__(66);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__font_nunito_light_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__font_nunito_light_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__app_styl__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__app_styl__ = __webpack_require__(69);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__app_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__app_styl__);
 
 
@@ -13659,62 +13665,62 @@ __WEBPACK_IMPORTED_MODULE_5_localforage___default.a.getItem('state').then(data =
 
 
 /***/ }),
-/* 82 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"./audios/caregiver": 4,
 	"./audios/caregiver.json": 4,
 	"./audios/caregiver.mp3": 20,
-	"./audios/caregiver.txt": 117,
+	"./audios/caregiver.txt": 118,
 	"./audios/creator": 5,
 	"./audios/creator.json": 5,
 	"./audios/creator.mp3": 21,
-	"./audios/creator.txt": 118,
+	"./audios/creator.txt": 119,
 	"./audios/deluxe-archetype-sales": 6,
 	"./audios/deluxe-archetype-sales.json": 6,
 	"./audios/deluxe-archetype-sales.mp3": 22,
-	"./audios/deluxe-archetype-sales.txt": 119,
+	"./audios/deluxe-archetype-sales.txt": 120,
 	"./audios/explorer": 7,
 	"./audios/explorer.json": 7,
 	"./audios/explorer.mp3": 23,
-	"./audios/explorer.txt": 120,
+	"./audios/explorer.txt": 121,
 	"./audios/hero": 8,
 	"./audios/hero.json": 8,
 	"./audios/hero.mp3": 24,
-	"./audios/hero.txt": 121,
+	"./audios/hero.txt": 122,
 	"./audios/innocent": 9,
 	"./audios/innocent.json": 9,
 	"./audios/innocent.mp3": 25,
-	"./audios/innocent.txt": 122,
+	"./audios/innocent.txt": 123,
 	"./audios/jester": 10,
 	"./audios/jester.json": 10,
 	"./audios/jester.mp3": 26,
-	"./audios/jester.txt": 123,
+	"./audios/jester.txt": 124,
 	"./audios/lover": 11,
 	"./audios/lover.json": 11,
 	"./audios/lover.mp3": 27,
-	"./audios/lover.txt": 124,
+	"./audios/lover.txt": 125,
 	"./audios/magician": 12,
 	"./audios/magician.json": 12,
 	"./audios/magician.mp3": 28,
-	"./audios/magician.txt": 125,
+	"./audios/magician.txt": 126,
 	"./audios/member": 13,
 	"./audios/member.json": 13,
 	"./audios/member.mp3": 29,
-	"./audios/member.txt": 126,
+	"./audios/member.txt": 127,
 	"./audios/outlaw": 14,
 	"./audios/outlaw.json": 14,
 	"./audios/outlaw.mp3": 30,
-	"./audios/outlaw.txt": 127,
+	"./audios/outlaw.txt": 128,
 	"./audios/ruler": 15,
 	"./audios/ruler.json": 15,
 	"./audios/ruler.mp3": 31,
-	"./audios/ruler.txt": 128,
+	"./audios/ruler.txt": 129,
 	"./audios/sage": 16,
 	"./audios/sage.json": 16,
 	"./audios/sage.mp3": 32,
-	"./audios/sage.txt": 129,
+	"./audios/sage.txt": 130,
 	"./images/archetype-icons/caregiver.png": 33,
 	"./images/archetype-icons/creator.png": 34,
 	"./images/archetype-icons/explorer.png": 35,
@@ -13727,19 +13733,19 @@ var map = {
 	"./images/archetype-icons/outlaw.png": 42,
 	"./images/archetype-icons/ruler.png": 43,
 	"./images/archetype-icons/sage.png": 44,
-	"./images/archetypes/banners/advocate.png": 130,
-	"./images/archetypes/banners/caregiver.png": 131,
-	"./images/archetypes/banners/creator.png": 132,
-	"./images/archetypes/banners/explorer.png": 133,
-	"./images/archetypes/banners/hero.png": 134,
-	"./images/archetypes/banners/innocent.png": 135,
-	"./images/archetypes/banners/jester.png": 136,
-	"./images/archetypes/banners/lover.png": 137,
-	"./images/archetypes/banners/magician.png": 138,
-	"./images/archetypes/banners/member.png": 139,
-	"./images/archetypes/banners/outlaw.png": 140,
-	"./images/archetypes/banners/ruller.png": 141,
-	"./images/archetypes/banners/sage.png": 142,
+	"./images/archetypes/banners/advocate.png": 131,
+	"./images/archetypes/banners/caregiver.png": 132,
+	"./images/archetypes/banners/creator.png": 133,
+	"./images/archetypes/banners/explorer.png": 134,
+	"./images/archetypes/banners/hero.png": 135,
+	"./images/archetypes/banners/innocent.png": 136,
+	"./images/archetypes/banners/jester.png": 137,
+	"./images/archetypes/banners/lover.png": 138,
+	"./images/archetypes/banners/magician.png": 139,
+	"./images/archetypes/banners/member.png": 140,
+	"./images/archetypes/banners/outlaw.png": 141,
+	"./images/archetypes/banners/ruller.png": 142,
+	"./images/archetypes/banners/sage.png": 143,
 	"./images/archetypes/covers/caregiver.jpg": 45,
 	"./images/archetypes/covers/creator.jpg": 46,
 	"./images/archetypes/covers/explorer.jpg": 47,
@@ -13752,74 +13758,74 @@ var map = {
 	"./images/archetypes/covers/outlaw.jpg": 54,
 	"./images/archetypes/covers/ruler.jpg": 55,
 	"./images/archetypes/covers/sage.jpg": 56,
-	"./images/archetypes/icons/advocate.png": 143,
-	"./images/archetypes/icons/all.png": 144,
-	"./images/archetypes/icons/caregiver.png": 145,
-	"./images/archetypes/icons/creator.png": 146,
-	"./images/archetypes/icons/explorer.png": 147,
-	"./images/archetypes/icons/hero.png": 148,
-	"./images/archetypes/icons/innocent.png": 149,
-	"./images/archetypes/icons/jester.png": 150,
-	"./images/archetypes/icons/lover.png": 151,
-	"./images/archetypes/icons/magician.png": 152,
-	"./images/archetypes/icons/member.png": 153,
-	"./images/archetypes/icons/outlaw.png": 154,
-	"./images/archetypes/icons/ruler.png": 155,
-	"./images/archetypes/icons/sage.png": 156,
-	"./images/archetypes/icons/warrior.png": 157,
+	"./images/archetypes/icons/advocate.png": 144,
+	"./images/archetypes/icons/all.png": 145,
+	"./images/archetypes/icons/caregiver.png": 146,
+	"./images/archetypes/icons/creator.png": 147,
+	"./images/archetypes/icons/explorer.png": 148,
+	"./images/archetypes/icons/hero.png": 149,
+	"./images/archetypes/icons/innocent.png": 150,
+	"./images/archetypes/icons/jester.png": 151,
+	"./images/archetypes/icons/lover.png": 152,
+	"./images/archetypes/icons/magician.png": 153,
+	"./images/archetypes/icons/member.png": 154,
+	"./images/archetypes/icons/outlaw.png": 155,
+	"./images/archetypes/icons/ruler.png": 156,
+	"./images/archetypes/icons/sage.png": 157,
+	"./images/archetypes/icons/warrior.png": 158,
 	"./images/backgrounds/quiz-slider-1.jpg": 57,
 	"./images/backgrounds/quiz-slider-2.jpg": 58,
 	"./images/backgrounds/quiz-slider-3.jpg": 59,
 	"./images/backgrounds/quiz-slider-4.jpg": 60,
-	"./images/backgrounds/space.jpg": 158,
-	"./images/individualogist-logo2.png": 159,
-	"./images/logos/large-logo.png": 160,
+	"./images/backgrounds/space.jpg": 159,
+	"./images/individualogist-logo2.png": 160,
+	"./images/logos/large-logo.png": 161,
 	"./images/logos/large-text.png": 17,
-	"./images/logos/magnifier.png": 161,
-	"./images/love-compatibility/caregiver-love-compatibility.png": 162,
-	"./images/love-compatibility/creator-love-compatibility.png": 163,
-	"./images/love-compatibility/explorer-love-compatibility.png": 164,
-	"./images/love-compatibility/hero-love-compatibility.png": 165,
-	"./images/love-compatibility/innocent-love-compatibility.png": 166,
-	"./images/love-compatibility/jester-love-compatibility.png": 167,
-	"./images/love-compatibility/lover-love-compatibility.png": 168,
-	"./images/love-compatibility/magician-love-compatibility.png": 169,
-	"./images/love-compatibility/member-love-compatibility.png": 170,
-	"./images/love-compatibility/outlaw-love-compatibility.png": 171,
-	"./images/love-compatibility/ruler-love-compatibility.png": 172,
-	"./images/love-compatibility/sage-love-compatibility.png": 173,
-	"./images/misc/38663-O1PN5F-min.png": 174,
-	"./images/misc/aleksandr-kozlovskii-2924-min.jpg": 175,
-	"./images/misc/bulb_PNG1251.png": 176,
-	"./images/misc/caregiver-love-compatibility-min.png": 177,
-	"./images/misc/creator-love-compatibility-min.png": 178,
-	"./images/misc/dar-2-min.png": 179,
-	"./images/misc/deluxe-archetype-report-with-bonuses-2-exit-min.png": 180,
-	"./images/misc/diminishing-shadow-with-bonuses-2-min.png": 181,
-	"./images/misc/diminishing-shadow-with-bonuses-exit.png": 182,
-	"./images/misc/explorer-love-compatibility-min.png": 183,
-	"./images/misc/flow.png": 184,
-	"./images/misc/hero-love-compatibility-min.png": 185,
-	"./images/misc/innocent-love-compatibility-min.png": 186,
-	"./images/misc/jester-love-compatibility-min.png": 187,
-	"./images/misc/key-2114459_1920.png": 188,
-	"./images/misc/love-compatibility-min.png": 189,
-	"./images/misc/lover-love-compatibility-min.png": 190,
-	"./images/misc/magician-love-compatibility-min.png": 191,
-	"./images/misc/member-love-compatibility-min.png": 192,
-	"./images/misc/new-deluxe-archetype-report-with-bonuses.png": 193,
-	"./images/misc/outlaw-love-compatibility-min.png": 194,
+	"./images/logos/magnifier.png": 162,
+	"./images/love-compatibility/caregiver-love-compatibility.png": 163,
+	"./images/love-compatibility/creator-love-compatibility.png": 164,
+	"./images/love-compatibility/explorer-love-compatibility.png": 165,
+	"./images/love-compatibility/hero-love-compatibility.png": 166,
+	"./images/love-compatibility/innocent-love-compatibility.png": 167,
+	"./images/love-compatibility/jester-love-compatibility.png": 168,
+	"./images/love-compatibility/lover-love-compatibility.png": 169,
+	"./images/love-compatibility/magician-love-compatibility.png": 170,
+	"./images/love-compatibility/member-love-compatibility.png": 171,
+	"./images/love-compatibility/outlaw-love-compatibility.png": 172,
+	"./images/love-compatibility/ruler-love-compatibility.png": 173,
+	"./images/love-compatibility/sage-love-compatibility.png": 174,
+	"./images/misc/38663-O1PN5F-min.png": 175,
+	"./images/misc/aleksandr-kozlovskii-2924-min.jpg": 176,
+	"./images/misc/bulb_PNG1251.png": 177,
+	"./images/misc/caregiver-love-compatibility-min.png": 178,
+	"./images/misc/creator-love-compatibility-min.png": 179,
+	"./images/misc/dar-2-min.png": 180,
+	"./images/misc/deluxe-archetype-report-with-bonuses-2-exit-min.png": 181,
+	"./images/misc/diminishing-shadow-with-bonuses-2-min.png": 182,
+	"./images/misc/diminishing-shadow-with-bonuses-exit.png": 183,
+	"./images/misc/explorer-love-compatibility-min.png": 184,
+	"./images/misc/flow.png": 185,
+	"./images/misc/hero-love-compatibility-min.png": 186,
+	"./images/misc/innocent-love-compatibility-min.png": 187,
+	"./images/misc/jester-love-compatibility-min.png": 188,
+	"./images/misc/key-2114459_1920.png": 189,
+	"./images/misc/love-compatibility-min.png": 190,
+	"./images/misc/lover-love-compatibility-min.png": 191,
+	"./images/misc/magician-love-compatibility-min.png": 192,
+	"./images/misc/member-love-compatibility-min.png": 193,
+	"./images/misc/new-deluxe-archetype-report-with-bonuses.png": 194,
+	"./images/misc/outlaw-love-compatibility-min.png": 195,
 	"./images/misc/preview-page-3a.jpg": 61,
 	"./images/misc/preview-page-4a.jpg": 62,
-	"./images/misc/ruler-love-compatibility-min.png": 195,
-	"./images/misc/safe-shield-protection.png": 196,
-	"./images/misc/sage-love-compatibility-min.png": 197,
-	"./images/misc/test-raisonnement.png": 198,
-	"./images/misc/tree.png": 199,
-	"./images/pop-up/60-day-money-back-guarantee.png": 200,
-	"./images/pop-up/Instructions for Popup.docx": 201,
-	"./images/pop-up/dar-priceless.png": 202,
-	"./images/pop-up/new-deluxe-archetype-report-with-bonuses.png": 203,
+	"./images/misc/ruler-love-compatibility-min.png": 196,
+	"./images/misc/safe-shield-protection.png": 197,
+	"./images/misc/sage-love-compatibility-min.png": 198,
+	"./images/misc/test-raisonnement.png": 199,
+	"./images/misc/tree.png": 200,
+	"./images/pop-up/60-day-money-back-guarantee.png": 201,
+	"./images/pop-up/Instructions for Popup.docx": 202,
+	"./images/pop-up/dar-priceless.png": 203,
+	"./images/pop-up/new-deluxe-archetype-report-with-bonuses.png": 63,
 	"./images/pop-up/shield-ok-icon-150x150.png": 204,
 	"./images/pop-up/template for popup1.pdf": 205,
 	"./images/pop-up/~$structions for Popup.docx": 206,
@@ -13845,10 +13851,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 82;
+webpackContext.id = 83;
 
 /***/ }),
-/* 83 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -13880,10 +13886,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 83;
+webpackContext.id = 84;
 
 /***/ }),
-/* 84 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -13915,10 +13921,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 84;
+webpackContext.id = 85;
 
 /***/ }),
-/* 85 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -13949,10 +13955,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 85;
+webpackContext.id = 86;
 
 /***/ }),
-/* 86 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -13983,10 +13989,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 86;
+webpackContext.id = 87;
 
 /***/ }),
-/* 87 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -14009,10 +14015,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 87;
+webpackContext.id = 88;
 
 /***/ }),
-/* 88 */
+/* 89 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14020,7 +14026,7 @@ webpackContext.id = 87;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_preact_hyperstyler___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_preact_hyperstyler__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_comment_logo_png__ = __webpack_require__(214);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_comment_logo_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__assets_comment_logo_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__style_styl__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__style_styl__ = __webpack_require__(99);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__style_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__style_styl__);
 
 
@@ -14042,7 +14048,7 @@ const h = __WEBPACK_IMPORTED_MODULE_0_preact_hyperstyler___default()(__WEBPACK_I
 
 
 /***/ }),
-/* 89 */
+/* 90 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14050,7 +14056,7 @@ const h = __WEBPACK_IMPORTED_MODULE_0_preact_hyperstyler___default()(__WEBPACK_I
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_preact___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_preact__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_preact_hyperstyler__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_preact_hyperstyler___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_preact_hyperstyler__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__style_styl__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__style_styl__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__style_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__style_styl__);
 
 
@@ -14100,14 +14106,14 @@ const h = __WEBPACK_IMPORTED_MODULE_1_preact_hyperstyler___default()(__WEBPACK_I
     return h.div('.container', [
       h.img('.img1', { ref: ref => this.ref1 = ref, src: this.state.src1, class: this.state.class1 }),
       h.img('.img2', { ref: ref => this.ref2 = ref, src: this.state.src2, class: this.state.class2 }),
-      h.pre(JSON.stringify(this.state, null, 2)),
+      // h.pre(JSON.stringify(this.state, null, 2)),
     ]);
   }
 });
 
 
 /***/ }),
-/* 90 */
+/* 91 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14116,7 +14122,7 @@ const h = __WEBPACK_IMPORTED_MODULE_1_preact_hyperstyler___default()(__WEBPACK_I
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_preact_hyperstyler__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_preact_hyperstyler___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_preact_hyperstyler__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_linkstate__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__style_styl__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__style_styl__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__style_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__style_styl__);
 
 
@@ -14156,7 +14162,7 @@ class Form extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
 
 
 /***/ }),
-/* 91 */
+/* 92 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14164,7 +14170,7 @@ class Form extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_preact_hyperstyler___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_preact_hyperstyler__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_images_logos_large_text_png__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_images_logos_large_text_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__assets_images_logos_large_text_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__style_styl__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__style_styl__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__style_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__style_styl__);
 
 
@@ -14181,7 +14187,7 @@ const h = __WEBPACK_IMPORTED_MODULE_0_preact_hyperstyler___default()(__WEBPACK_I
 
 
 /***/ }),
-/* 92 */
+/* 93 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14190,8 +14196,8 @@ const h = __WEBPACK_IMPORTED_MODULE_0_preact_hyperstyler___default()(__WEBPACK_I
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_preact_hyperstyler__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_preact_hyperstyler___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_preact_hyperstyler__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data_archetypes__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data_questions__ = __webpack_require__(95);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__style_styl__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data_questions__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__style_styl__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__style_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__style_styl__);
 
 
@@ -14308,16 +14314,16 @@ class Quiz extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
 
 
 /***/ }),
-/* 93 */
+/* 94 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_preact_hyperstyler__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_preact_hyperstyler___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_preact_hyperstyler__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data_archetypes__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__style_styl__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__style_styl__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__style_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__style_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_preact_markdown__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_preact_markdown__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_preact_markdown___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_preact_markdown__);
 
 
@@ -14331,7 +14337,7 @@ const h = __WEBPACK_IMPORTED_MODULE_0_preact_hyperstyler___default()(__WEBPACK_I
     h.label('Your archetype is: '),
     h.span(__WEBPACK_IMPORTED_MODULE_1__data_archetypes__["a" /* default */][props.archetype].title),
   ]),
-  h.img('.archetype', { src: __webpack_require__(85)(`./${props.archetype}.png`) }),
+  h.img('.archetype', { src: __webpack_require__(86)(`./${props.archetype}.png`) }),
   h.p('.intro', [__WEBPACK_IMPORTED_MODULE_3_preact_markdown___default()(`Dear **${props.archetype}**, we have so much to tell you about who you are, what you're great at, what you're not so great at... But we can't fit everything into a single page. So, we've put everything into a **FREE** archetype reading! We're not expecting anything in return, but it would tickle us pink if you'd be kind enough to share this quiz with your friends and family! If not, just scroll on down to gain instant access to your **FREE** archetype reading!`)]),
   h.div('.box', [
     h.p([__WEBPACK_IMPORTED_MODULE_3_preact_markdown___default()(`Everything You Need To Know About **${__WEBPACK_IMPORTED_MODULE_1__data_archetypes__["a" /* default */][props.archetype].title}**... in One Free Archetype Reading`)]),
@@ -14344,7 +14350,7 @@ const h = __WEBPACK_IMPORTED_MODULE_0_preact_hyperstyler___default()(__WEBPACK_I
   ]),
   h.div('.preview', [
     h.div([h.img({ src: __webpack_require__(61) })]),
-    h.div([h.img({ src: __webpack_require__(86)(`./${props.archetype}.jpg`) })]),
+    h.div([h.img({ src: __webpack_require__(87)(`./${props.archetype}.jpg`) })]),
     h.div([h.img({ src: __webpack_require__(62) })]),
   ]),
   h.div('.form-conainer', [
@@ -14356,7 +14362,7 @@ const h = __WEBPACK_IMPORTED_MODULE_0_preact_hyperstyler___default()(__WEBPACK_I
 
 
 /***/ }),
-/* 94 */
+/* 95 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14367,8 +14373,8 @@ const h = __WEBPACK_IMPORTED_MODULE_0_preact_hyperstyler___default()(__WEBPACK_I
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_linkstate__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_preact_markup__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_preact_markup___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_preact_markup__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__fade_image__ = __webpack_require__(89);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__style_styl__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__fade_image__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__style_styl__ = __webpack_require__(105);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__style_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__style_styl__);
 
 
@@ -14381,10 +14387,11 @@ const h = __WEBPACK_IMPORTED_MODULE_1_preact_hyperstyler___default()(__WEBPACK_I
 
 class Slider extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
   componentWillMount() {
-    // if (!this.props || !this.props.archetype) {
-    //   throw new Error('Need to have an archetype before this component could be rendered');
-    // }
     this.changeBackground();
+    document.body.onkeyup = e => e.keyCode === 32 && this.playPause();
+  }
+  componentWillUnmount() {
+    delete document.body.onkeyup;
   }
 
   componentDidMount() {
@@ -14397,7 +14404,7 @@ class Slider extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
 
   displayImage(opts, transcriptLine) {
     try {
-      this.setState({ img: __webpack_require__(82)("./" + opts.path) });
+      this.setState({ img: __webpack_require__(83)("./" + opts.path) });
     } catch (error) {
       this.setState({ img: '' });
       console.error(error);
@@ -14425,7 +14432,7 @@ class Slider extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
       const cbg = this.state.currentBackgroundIndex || 0;
       const nbg = cbg >= 4 ? 1 : cbg + 1;
       this.setState({
-        background: __webpack_require__(87)(`./quiz-slider-${nbg}.jpg`),
+        background: __webpack_require__(88)(`./quiz-slider-${nbg}.jpg`),
         currentBackgroundIndex: nbg,
         lastBackgroundChangeTime: +new Date(),
       });
@@ -14444,14 +14451,14 @@ class Slider extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
 
     let audio;
     try {
-      audio = __webpack_require__(84)(`./${archetype}.mp3`);
+      audio = __webpack_require__(85)(`./${archetype}.mp3`);
     } catch (error) {
       return `Cannot load the audio file: '${archetype}.mp3'`;
     }
 
     let transcript;
     try {
-      transcript = __webpack_require__(83)(`./${archetype}.json`);
+      transcript = __webpack_require__(84)(`./${archetype}.json`);
     } catch (error) {
       return `Cannot load the transcript file: '${archetype}.json'`;
     }
@@ -14463,7 +14470,7 @@ class Slider extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
         h.img({ src: __webpack_require__(17) }),
       ]),
       h.div('.content', { onclick: e => this.playPause() }, [
-        h.div('.play-pause', {class: this.state.audioPaused ? 'visible': ''}),
+        h.div('.play-pause', { class: this.state.audioPaused ? 'visible' : '' }),
         h.div('.text', [this.state.currentLine
           ? h(__WEBPACK_IMPORTED_MODULE_3_preact_markup___default.a, { markup: this.state.currentLine })
           // ? h.pre(JSON.stringify(this.state.currentLine, null, 2))
@@ -14472,8 +14479,8 @@ class Slider extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
         h.div('.image', [
           h.div('.background', [h(__WEBPACK_IMPORTED_MODULE_4__fade_image__["a" /* default */], { src: this.state.background })]),
           // h.div('.background', [h.img({ src: this.state.background })]),
-          // h.div('.foreground', [this.state.img && h(fadeImage, { src: this.state.img })]),
-          h.div('.foreground', [this.state.img && h.img({ src: this.state.img })]),
+          h.div('.foreground', [this.state.img && h(__WEBPACK_IMPORTED_MODULE_4__fade_image__["a" /* default */], { src: this.state.img })]),
+          // h.div('.foreground', [this.state.img && h.img({ src: this.state.img })]),
         ]),
         h.audio({
           // controls: true,
@@ -14507,7 +14514,16 @@ class Slider extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
           },
         }),
       ]),
-      h.pre([JSON.stringify(this.state, null, 1)]),
+      h.div('.rest', [
+        h.div('.action-1', [
+          h.div('.img', [h.img({ src: __webpack_require__(63) }),]),
+          h.div([
+            h.p(`Get Your Deluxe Archetype Report For Only $37.00 Now!`),
+            h.button('Click Here To Order Now'),
+          ]),
+        ]),
+      ]),
+      // h.pre([JSON.stringify(this.state, null, 1)]),
     ])]);
   }
 }
@@ -14516,7 +14532,7 @@ class Slider extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
 
 
 /***/ }),
-/* 95 */
+/* 96 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14599,7 +14615,7 @@ class Slider extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
 
 
 /***/ }),
-/* 96 */
+/* 97 */
 /***/ (function(module, exports) {
 
 /**
@@ -14628,7 +14644,7 @@ function dashLower (c) {
 
 
 /***/ }),
-/* 97 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -14683,56 +14699,56 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 
 /***/ }),
-/* 98 */
+/* 99 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"outer":"hf_EvfoZ7YYO76WmPM-ua","container":"_2ifGFKluNAPLNHxdZkCQp7","img":"pD7Gm54l_IrLmIO6cMz4s","heading":"_1_7-We5qBmCmykcNvA15Vx"};
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"container":"_1yRK6-8okbpN8vGUJJ8_9A","img":"_2o9Njiqi9YOYKuV17RlmEr","visible":"_2_iXMIQA2c29ZKuaNTMo5A","pre":"DXa1BqO9mR7Zfa2DyNtW"};
 
 /***/ }),
-/* 100 */
+/* 101 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"form":"_2AXxRnWCRtAw632XNufCv","input":"_2JI9BAwTFEDHWcCgGxCYIL","button":"_245m2ScnvKekP_F3m7GgxE"};
 
 /***/ }),
-/* 101 */
+/* 102 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"header":"_3jaB-6x0Hu-kos38oQ2Ni0","img":"_2BbGTgWf_o807LCWMNB6Ci","p":"_1SERCw-8ioKR8mRE95aFKH","heading":"_1hulBTA4bbBQCB167jpdru","subtitle":"sp-KGqO8nQFGGBT26ZAGd","subtext":"mkSnVvk-loivkd5im0Ewf"};
 
 /***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"progress-bar":"_25sk9YU801rQi8UCnipsea","wrapper":"h_ZUZeCihL-glnobet7OC","h1":"_2T5WuqK4Z52EYDGBexSuKN","color":"LL4leYSTxNZazoWJ4exZ1","container":"_1Y0eDVcj0rJumpAjyCOX33","intro":"_9y8ZMTMNh9ig4kaWU1uYB","p":"WdsJkOld8n67YlN1YgpNF","form":"fqo_GZ7q1RhBKY0jshNwV","li":"xUQ-qOM75FMq_wanv9Ai_","question":"_2XAmsnBBxWzNHuH4ZTDL_Q","answer":"KuoAIuKjcgyI9S-4wKC-t","input":"_2ufkinwKNCiOFuWMjPaFXs","ol":"_2TBghB61ksBv2ytMP_Bnau","visible":"_20uATEHsx57deYUma7vfi2","ul":"_3EQUx76TIupkNoJZ2W3Qwf","order":"_1mSy2_T6gFVevOeqUjVxv6"};
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"wrapper":"_2jtIufVcwZit4wIOfsZwNF","container":"_2nN2_cOQPBnjvlnslCNaTf","heading":"xkjr17umd4La6q0vErytG","img":"wOaV_sSmMhvx8DRvO1hF1","archetype":"_2X0id_VT--tcnhHMdB2G0T","intro":"_2HcfW050UwR23Z427BnACE","p":"_3Mr92o02YF71So6E7mzgjC","strong":"_2FhkOxbT9rBMC_dQqjK0iR","box":"_2LT6Ys4g9UEUu8NHdWm6qK","ul":"_1HscPKTfnPBJGs-0FVFAjm","preview":"_3EpyE3WCpxgZIl1TbusUva","form-conainer":"_2IeV6yd_K9iRBr6dYl4A3L"};
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"header":"_3AsdjDAzseL8MpNpgqxfJ5","img":"_2WfjZiwX10o_jZIGY66QEB","content":"_2AQ3z-c_7GKyFo91Qu8a68","text":"_3bvpaB6sogxVy9hNl0uuO0","image":"I7v3B96_oRBiowFWZbzLK","background":"_3stlj5C5FZFSUR3C8Ri5Le","foreground":"p7wf8JTHFR0PKnq1U6Nx_","play-pause":"_1xVFq0wTP8wIKKR-dO66ol","visible":"_3C_edxZrhsPRcsMatetTrD","pre":"PKx6FTUCz1YO_nHnLo-83"};
+module.exports = {"container":"_3Px6dx9-zPN0mVyAWdfus8","header":"_3AsdjDAzseL8MpNpgqxfJ5","img":"_2WfjZiwX10o_jZIGY66QEB","content":"_2AQ3z-c_7GKyFo91Qu8a68","text":"_3bvpaB6sogxVy9hNl0uuO0","image":"I7v3B96_oRBiowFWZbzLK","background":"_3stlj5C5FZFSUR3C8Ri5Le","foreground":"p7wf8JTHFR0PKnq1U6Nx_","play-pause":"_1xVFq0wTP8wIKKR-dO66ol","visible":"_3C_edxZrhsPRcsMatetTrD","action-1":"_38V6kpLV_A7VPVOETQlLJn","div":"_19_E0eQWN_WDXLCR09lXHq","p":"Ajw5UWhGeMWqEW14Fpioi","button":"_2xiM1gds09Ux4WG-jz9uPr","pre":"PKx6FTUCz1YO_nHnLo-83"};
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14785,7 +14801,7 @@ exports['default'] = function (h) {
 module.exports = exports['default'];
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {/**
@@ -16078,11 +16094,11 @@ if (true) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(18)))
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var parseSelector = __webpack_require__(108)
+var parseSelector = __webpack_require__(109)
 
 module.exports = parse
 
@@ -16130,7 +16146,7 @@ function isObj (val) { return typeof val === 'object' }
 
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports) {
 
 
@@ -16165,10 +16181,10 @@ function parseSelector (selector) {
 
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var ph = __webpack_require__(110)
+var ph = __webpack_require__(111)
 
 var h = ph.createElement
 
@@ -16178,14 +16194,14 @@ module.exports = h
 
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var createHelpers = __webpack_require__(105)
-var toInlineStyle = __webpack_require__(111)
-var parse = __webpack_require__(107)
-var classNames = __webpack_require__(97)
+var createHelpers = __webpack_require__(106)
+var toInlineStyle = __webpack_require__(112)
+var parse = __webpack_require__(108)
+var classNames = __webpack_require__(98)
 var ref = __webpack_require__(0);
 var h = ref.h;
 
@@ -16235,11 +16251,11 @@ function createComponent (Component) {
 
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var hyphenate = __webpack_require__(96)
+var hyphenate = __webpack_require__(97)
 
 module.exports = toInlineStyle
 
@@ -16263,12 +16279,12 @@ function format (key, value) {
 
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var h = __webpack_require__(0).h
 var Markup = __webpack_require__(3)
-var marked = __webpack_require__(106)
+var marked = __webpack_require__(107)
 
 module.exports = Markdown
 
@@ -16297,7 +16313,7 @@ function Markdown(props, opts) {
 
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(module, global) {var __WEBPACK_AMD_DEFINE_RESULT__;/*! https://mths.be/punycode v1.4.1 by @mathias */
@@ -16836,7 +16852,7 @@ function Markdown(props, opts) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(216)(module), __webpack_require__(18)))
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16927,7 +16943,7 @@ var isArray = Array.isArray || function (xs) {
 
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17019,537 +17035,531 @@ var objectKeys = Object.keys || function (obj) {
 
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-exports.decode = exports.parse = __webpack_require__(114);
-exports.encode = exports.stringify = __webpack_require__(115);
+exports.decode = exports.parse = __webpack_require__(115);
+exports.encode = exports.stringify = __webpack_require__(116);
 
-
-/***/ }),
-/* 117 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "build/assets/audios/caregiver.txt";
 
 /***/ }),
 /* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/audios/creator.txt";
+module.exports = __webpack_require__.p + "build/assets/audios/caregiver.txt";
 
 /***/ }),
 /* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/audios/deluxe-archetype-sales.txt";
+module.exports = __webpack_require__.p + "build/assets/audios/creator.txt";
 
 /***/ }),
 /* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/audios/explorer.txt";
+module.exports = __webpack_require__.p + "build/assets/audios/deluxe-archetype-sales.txt";
 
 /***/ }),
 /* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/audios/hero.txt";
+module.exports = __webpack_require__.p + "build/assets/audios/explorer.txt";
 
 /***/ }),
 /* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/audios/innocent.txt";
+module.exports = __webpack_require__.p + "build/assets/audios/hero.txt";
 
 /***/ }),
 /* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/audios/jester.txt";
+module.exports = __webpack_require__.p + "build/assets/audios/innocent.txt";
 
 /***/ }),
 /* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/audios/lover.txt";
+module.exports = __webpack_require__.p + "build/assets/audios/jester.txt";
 
 /***/ }),
 /* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/audios/magician.txt";
+module.exports = __webpack_require__.p + "build/assets/audios/lover.txt";
 
 /***/ }),
 /* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/audios/member.txt";
+module.exports = __webpack_require__.p + "build/assets/audios/magician.txt";
 
 /***/ }),
 /* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/audios/outlaw.txt";
+module.exports = __webpack_require__.p + "build/assets/audios/member.txt";
 
 /***/ }),
 /* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/audios/ruler.txt";
+module.exports = __webpack_require__.p + "build/assets/audios/outlaw.txt";
 
 /***/ }),
 /* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/audios/sage.txt";
+module.exports = __webpack_require__.p + "build/assets/audios/ruler.txt";
 
 /***/ }),
 /* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/advocate.png";
+module.exports = __webpack_require__.p + "build/assets/audios/sage.txt";
 
 /***/ }),
 /* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/caregiver.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/advocate.png";
 
 /***/ }),
 /* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/creator.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/caregiver.png";
 
 /***/ }),
 /* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/explorer.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/creator.png";
 
 /***/ }),
 /* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/hero.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/explorer.png";
 
 /***/ }),
 /* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/innocent.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/hero.png";
 
 /***/ }),
 /* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/jester.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/innocent.png";
 
 /***/ }),
 /* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/lover.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/jester.png";
 
 /***/ }),
 /* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/magician.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/lover.png";
 
 /***/ }),
 /* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/member.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/magician.png";
 
 /***/ }),
 /* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/outlaw.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/member.png";
 
 /***/ }),
 /* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/ruller.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/outlaw.png";
 
 /***/ }),
 /* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/sage.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/ruller.png";
 
 /***/ }),
 /* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/advocate.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/sage.png";
 
 /***/ }),
 /* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/all.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/advocate.png";
 
 /***/ }),
 /* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/caregiver.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/all.png";
 
 /***/ }),
 /* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/creator.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/caregiver.png";
 
 /***/ }),
 /* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/explorer.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/creator.png";
 
 /***/ }),
 /* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/hero.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/explorer.png";
 
 /***/ }),
 /* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/innocent.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/hero.png";
 
 /***/ }),
 /* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/jester.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/innocent.png";
 
 /***/ }),
 /* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/lover.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/jester.png";
 
 /***/ }),
 /* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/magician.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/lover.png";
 
 /***/ }),
 /* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/member.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/magician.png";
 
 /***/ }),
 /* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/outlaw.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/member.png";
 
 /***/ }),
 /* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/ruler.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/outlaw.png";
 
 /***/ }),
 /* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/sage.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/ruler.png";
 
 /***/ }),
 /* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/warrior.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/sage.png";
 
 /***/ }),
 /* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/backgrounds/space.jpg";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/warrior.png";
 
 /***/ }),
 /* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/individualogist-logo2.png";
+module.exports = __webpack_require__.p + "build/assets/images/backgrounds/space.jpg";
 
 /***/ }),
 /* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/logos/large-logo.png";
+module.exports = __webpack_require__.p + "build/assets/images/individualogist-logo2.png";
 
 /***/ }),
 /* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/logos/magnifier.png";
+module.exports = __webpack_require__.p + "build/assets/images/logos/large-logo.png";
 
 /***/ }),
 /* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/caregiver-love-compatibility.png";
+module.exports = __webpack_require__.p + "build/assets/images/logos/magnifier.png";
 
 /***/ }),
 /* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/creator-love-compatibility.png";
+module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/caregiver-love-compatibility.png";
 
 /***/ }),
 /* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/explorer-love-compatibility.png";
+module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/creator-love-compatibility.png";
 
 /***/ }),
 /* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/hero-love-compatibility.png";
+module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/explorer-love-compatibility.png";
 
 /***/ }),
 /* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/innocent-love-compatibility.png";
+module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/hero-love-compatibility.png";
 
 /***/ }),
 /* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/jester-love-compatibility.png";
+module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/innocent-love-compatibility.png";
 
 /***/ }),
 /* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/lover-love-compatibility.png";
+module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/jester-love-compatibility.png";
 
 /***/ }),
 /* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/magician-love-compatibility.png";
+module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/lover-love-compatibility.png";
 
 /***/ }),
 /* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/member-love-compatibility.png";
+module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/magician-love-compatibility.png";
 
 /***/ }),
 /* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/outlaw-love-compatibility.png";
+module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/member-love-compatibility.png";
 
 /***/ }),
 /* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/ruler-love-compatibility.png";
+module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/outlaw-love-compatibility.png";
 
 /***/ }),
 /* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/sage-love-compatibility.png";
+module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/ruler-love-compatibility.png";
 
 /***/ }),
 /* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/38663-O1PN5F-min.png";
+module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/sage-love-compatibility.png";
 
 /***/ }),
 /* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/aleksandr-kozlovskii-2924-min.jpg";
+module.exports = __webpack_require__.p + "build/assets/images/misc/38663-O1PN5F-min.png";
 
 /***/ }),
 /* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/bulb_PNG1251.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/aleksandr-kozlovskii-2924-min.jpg";
 
 /***/ }),
 /* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/caregiver-love-compatibility-min.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/bulb_PNG1251.png";
 
 /***/ }),
 /* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/creator-love-compatibility-min.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/caregiver-love-compatibility-min.png";
 
 /***/ }),
 /* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/dar-2-min.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/creator-love-compatibility-min.png";
 
 /***/ }),
 /* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/deluxe-archetype-report-with-bonuses-2-exit-min.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/dar-2-min.png";
 
 /***/ }),
 /* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/diminishing-shadow-with-bonuses-2-min.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/deluxe-archetype-report-with-bonuses-2-exit-min.png";
 
 /***/ }),
 /* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/diminishing-shadow-with-bonuses-exit.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/diminishing-shadow-with-bonuses-2-min.png";
 
 /***/ }),
 /* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/explorer-love-compatibility-min.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/diminishing-shadow-with-bonuses-exit.png";
 
 /***/ }),
 /* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/flow.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/explorer-love-compatibility-min.png";
 
 /***/ }),
 /* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/hero-love-compatibility-min.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/flow.png";
 
 /***/ }),
 /* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/innocent-love-compatibility-min.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/hero-love-compatibility-min.png";
 
 /***/ }),
 /* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/jester-love-compatibility-min.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/innocent-love-compatibility-min.png";
 
 /***/ }),
 /* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/key-2114459_1920.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/jester-love-compatibility-min.png";
 
 /***/ }),
 /* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/love-compatibility-min.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/key-2114459_1920.png";
 
 /***/ }),
 /* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/lover-love-compatibility-min.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/love-compatibility-min.png";
 
 /***/ }),
 /* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/magician-love-compatibility-min.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/lover-love-compatibility-min.png";
 
 /***/ }),
 /* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/member-love-compatibility-min.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/magician-love-compatibility-min.png";
 
 /***/ }),
 /* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/new-deluxe-archetype-report-with-bonuses.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/member-love-compatibility-min.png";
 
 /***/ }),
 /* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/outlaw-love-compatibility-min.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/new-deluxe-archetype-report-with-bonuses.png";
 
 /***/ }),
 /* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/ruler-love-compatibility-min.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/outlaw-love-compatibility-min.png";
 
 /***/ }),
 /* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/safe-shield-protection.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/ruler-love-compatibility-min.png";
 
 /***/ }),
 /* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/sage-love-compatibility-min.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/safe-shield-protection.png";
 
 /***/ }),
 /* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/test-raisonnement.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/sage-love-compatibility-min.png";
 
 /***/ }),
 /* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/misc/tree.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/test-raisonnement.png";
 
 /***/ }),
 /* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/pop-up/60-day-money-back-guarantee.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/tree.png";
 
 /***/ }),
 /* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/pop-up/Instructions for Popup.docx";
+module.exports = __webpack_require__.p + "build/assets/images/pop-up/60-day-money-back-guarantee.png";
 
 /***/ }),
 /* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/pop-up/dar-priceless.png";
+module.exports = __webpack_require__.p + "build/assets/images/pop-up/Instructions for Popup.docx";
 
 /***/ }),
 /* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/images/pop-up/new-deluxe-archetype-report-with-bonuses.png";
+module.exports = __webpack_require__.p + "build/assets/images/pop-up/dar-priceless.png";
 
 /***/ }),
 /* 204 */
