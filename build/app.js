@@ -9311,241 +9311,241 @@ module.exports = [
 /* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/caregiver.07ec2.mp3";
+module.exports = __webpack_require__.p + "build/assets/audios/caregiver.mp3";
 
 /***/ }),
 /* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/creator.b58e5.mp3";
+module.exports = __webpack_require__.p + "build/assets/audios/creator.mp3";
 
 /***/ }),
 /* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/deluxe-archetype-sales.9c1a7.mp3";
+module.exports = __webpack_require__.p + "build/assets/audios/deluxe-archetype-sales.mp3";
 
 /***/ }),
 /* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/explorer.d6b73.mp3";
+module.exports = __webpack_require__.p + "build/assets/audios/explorer.mp3";
 
 /***/ }),
 /* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/hero.35b43.mp3";
+module.exports = __webpack_require__.p + "build/assets/audios/hero.mp3";
 
 /***/ }),
 /* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/innocent.943bd.mp3";
+module.exports = __webpack_require__.p + "build/assets/audios/innocent.mp3";
 
 /***/ }),
 /* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/jester.073c7.mp3";
+module.exports = __webpack_require__.p + "build/assets/audios/jester.mp3";
 
 /***/ }),
 /* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/lover.cfe68.mp3";
+module.exports = __webpack_require__.p + "build/assets/audios/lover.mp3";
 
 /***/ }),
 /* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/magician.8c13b.mp3";
+module.exports = __webpack_require__.p + "build/assets/audios/magician.mp3";
 
 /***/ }),
 /* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/member.b19ec.mp3";
+module.exports = __webpack_require__.p + "build/assets/audios/member.mp3";
 
 /***/ }),
 /* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/outlaw.5d932.mp3";
+module.exports = __webpack_require__.p + "build/assets/audios/outlaw.mp3";
 
 /***/ }),
 /* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/ruler.ec4e1.mp3";
+module.exports = __webpack_require__.p + "build/assets/audios/ruler.mp3";
 
 /***/ }),
 /* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/sage.ea9bf.mp3";
+module.exports = __webpack_require__.p + "build/assets/audios/sage.mp3";
 
 /***/ }),
 /* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/caregiver.63d94.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetype-icons/caregiver.png";
 
 /***/ }),
 /* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/creator.f9b7e.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetype-icons/creator.png";
 
 /***/ }),
 /* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/explorer.04933.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetype-icons/explorer.png";
 
 /***/ }),
 /* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/hero.224fc.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetype-icons/hero.png";
 
 /***/ }),
 /* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/innocent.ac712.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetype-icons/innocent.png";
 
 /***/ }),
 /* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/jester.af079.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetype-icons/jester.png";
 
 /***/ }),
 /* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/lover.0a27b.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetype-icons/lover.png";
 
 /***/ }),
 /* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/magician.2455c.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetype-icons/magician.png";
 
 /***/ }),
 /* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/member.8c9b8.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetype-icons/member.png";
 
 /***/ }),
 /* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/outlaw.ef835.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetype-icons/outlaw.png";
 
 /***/ }),
 /* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/ruler.93600.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetype-icons/ruler.png";
 
 /***/ }),
 /* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/sage.a91e9.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetype-icons/sage.png";
 
 /***/ }),
 /* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/caregiver.95023.jpg";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/covers/caregiver.jpg";
 
 /***/ }),
 /* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/creator.60cfe.jpg";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/covers/creator.jpg";
 
 /***/ }),
 /* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/explorer.dd1d4.jpg";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/covers/explorer.jpg";
 
 /***/ }),
 /* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/hero.7425c.jpg";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/covers/hero.jpg";
 
 /***/ }),
 /* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/innocent.61b2e.jpg";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/covers/innocent.jpg";
 
 /***/ }),
 /* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/jester.ab70d.jpg";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/covers/jester.jpg";
 
 /***/ }),
 /* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/lover.a55f4.jpg";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/covers/lover.jpg";
 
 /***/ }),
 /* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/magician.5242c.jpg";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/covers/magician.jpg";
 
 /***/ }),
 /* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/member.e2820.jpg";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/covers/member.jpg";
 
 /***/ }),
 /* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/outlaw.b8d2b.jpg";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/covers/outlaw.jpg";
 
 /***/ }),
 /* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/ruler.d5aa7.jpg";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/covers/ruler.jpg";
 
 /***/ }),
 /* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/sage.e8d83.jpg";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/covers/sage.jpg";
 
 /***/ }),
 /* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/large-text.0617d.png";
+module.exports = __webpack_require__.p + "build/assets/images/logos/large-text.png";
 
 /***/ }),
 /* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/preview-page-3a.eccb5.jpg";
+module.exports = __webpack_require__.p + "build/assets/images/misc/preview-page-3a.jpg";
 
 /***/ }),
 /* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/preview-page-4a.ce188.jpg";
+module.exports = __webpack_require__.p + "build/assets/images/misc/preview-page-4a.jpg";
 
 /***/ }),
 /* 58 */
@@ -15704,523 +15704,523 @@ exports.encode = exports.stringify = __webpack_require__(123);
 /* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/advocate.7ac73.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/advocate.png";
 
 /***/ }),
 /* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/caregiver.8fe73.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/caregiver.png";
 
 /***/ }),
 /* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/creator.9da06.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/creator.png";
 
 /***/ }),
 /* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/explorer.e9216.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/explorer.png";
 
 /***/ }),
 /* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/hero.a6e32.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/hero.png";
 
 /***/ }),
 /* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/innocent.f1677.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/innocent.png";
 
 /***/ }),
 /* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/jester.c173d.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/jester.png";
 
 /***/ }),
 /* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/lover.45573.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/lover.png";
 
 /***/ }),
 /* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/magician.70d19.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/magician.png";
 
 /***/ }),
 /* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/member.0eb71.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/member.png";
 
 /***/ }),
 /* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/outlaw.f60c1.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/outlaw.png";
 
 /***/ }),
 /* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/ruller.2556e.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/ruller.png";
 
 /***/ }),
 /* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/sage.83fbb.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/banners/sage.png";
 
 /***/ }),
 /* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/advocate.824c9.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/advocate.png";
 
 /***/ }),
 /* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/all.b80f9.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/all.png";
 
 /***/ }),
 /* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/caregiver.63d94.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/caregiver.png";
 
 /***/ }),
 /* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/creator.f9b7e.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/creator.png";
 
 /***/ }),
 /* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/explorer.04933.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/explorer.png";
 
 /***/ }),
 /* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/hero.224fc.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/hero.png";
 
 /***/ }),
 /* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/innocent.ac712.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/innocent.png";
 
 /***/ }),
 /* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/jester.af079.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/jester.png";
 
 /***/ }),
 /* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/lover.0a27b.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/lover.png";
 
 /***/ }),
 /* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/magician.2455c.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/magician.png";
 
 /***/ }),
 /* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/member.8c9b8.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/member.png";
 
 /***/ }),
 /* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/outlaw.ef835.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/outlaw.png";
 
 /***/ }),
 /* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/ruler.93600.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/ruler.png";
 
 /***/ }),
 /* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/sage.a91e9.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/sage.png";
 
 /***/ }),
 /* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/warrior.0e14f.png";
+module.exports = __webpack_require__.p + "build/assets/images/archetypes/icons/warrior.png";
 
 /***/ }),
 /* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/quiz-slider-1 copy.a8f86.jpg";
+module.exports = __webpack_require__.p + "build/assets/images/backgrounds/quiz-slider-1 copy.jpg";
 
 /***/ }),
 /* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/quiz-slider-2 copy.29925.jpg";
+module.exports = __webpack_require__.p + "build/assets/images/backgrounds/quiz-slider-2 copy.jpg";
 
 /***/ }),
 /* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/quiz-slider-3 copy.b6731.jpg";
+module.exports = __webpack_require__.p + "build/assets/images/backgrounds/quiz-slider-3 copy.jpg";
 
 /***/ }),
 /* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/quiz-slider-4 copy.c2bc8.jpg";
+module.exports = __webpack_require__.p + "build/assets/images/backgrounds/quiz-slider-4 copy.jpg";
 
 /***/ }),
 /* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/space.4413f.jpg";
+module.exports = __webpack_require__.p + "build/assets/images/backgrounds/space.jpg";
 
 /***/ }),
 /* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/individualogist-logo2.0617d.png";
+module.exports = __webpack_require__.p + "build/assets/images/individualogist-logo2.png";
 
 /***/ }),
 /* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/large-logo.accf8.png";
+module.exports = __webpack_require__.p + "build/assets/images/logos/large-logo.png";
 
 /***/ }),
 /* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/magnifier.b0a70.png";
+module.exports = __webpack_require__.p + "build/assets/images/logos/magnifier.png";
 
 /***/ }),
 /* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/caregiver-love-compatibility.c73d4.png";
+module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/caregiver-love-compatibility.png";
 
 /***/ }),
 /* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/creator-love-compatibility.d0294.png";
+module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/creator-love-compatibility.png";
 
 /***/ }),
 /* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/explorer-love-compatibility.77f57.png";
+module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/explorer-love-compatibility.png";
 
 /***/ }),
 /* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/hero-love-compatibility.e0de1.png";
+module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/hero-love-compatibility.png";
 
 /***/ }),
 /* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/innocent-love-compatibility.389b3.png";
+module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/innocent-love-compatibility.png";
 
 /***/ }),
 /* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/jester-love-compatibility.5abab.png";
+module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/jester-love-compatibility.png";
 
 /***/ }),
 /* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/lover-love-compatibility.a1394.png";
+module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/lover-love-compatibility.png";
 
 /***/ }),
 /* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/magician-love-compatibility.88f82.png";
+module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/magician-love-compatibility.png";
 
 /***/ }),
 /* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/member-love-compatibility.4b930.png";
+module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/member-love-compatibility.png";
 
 /***/ }),
 /* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/outlaw-love-compatibility.1e3bc.png";
+module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/outlaw-love-compatibility.png";
 
 /***/ }),
 /* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/ruler-love-compatibility.8e339.png";
+module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/ruler-love-compatibility.png";
 
 /***/ }),
 /* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/sage-love-compatibility.d61f6.png";
+module.exports = __webpack_require__.p + "build/assets/images/love-compatibility/sage-love-compatibility.png";
 
 /***/ }),
 /* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/38663-O1PN5F-min.e101a.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/38663-O1PN5F-min.png";
 
 /***/ }),
 /* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/aleksandr-kozlovskii-2924-min.771eb.jpg";
+module.exports = __webpack_require__.p + "build/assets/images/misc/aleksandr-kozlovskii-2924-min.jpg";
 
 /***/ }),
 /* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/bulb_PNG1251.e79f6.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/bulb_PNG1251.png";
 
 /***/ }),
 /* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/caregiver-love-compatibility-min.1a67a.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/caregiver-love-compatibility-min.png";
 
 /***/ }),
 /* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/creator-love-compatibility-min.326dd.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/creator-love-compatibility-min.png";
 
 /***/ }),
 /* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/dar-2-min.93141.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/dar-2-min.png";
 
 /***/ }),
 /* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/deluxe-archetype-report-with-bonuses-2-exit-min.dd419.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/deluxe-archetype-report-with-bonuses-2-exit-min.png";
 
 /***/ }),
 /* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/diminishing-shadow-with-bonuses-2-min.0e294.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/diminishing-shadow-with-bonuses-2-min.png";
 
 /***/ }),
 /* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/diminishing-shadow-with-bonuses-exit.27673.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/diminishing-shadow-with-bonuses-exit.png";
 
 /***/ }),
 /* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/explorer-love-compatibility-min.2e020.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/explorer-love-compatibility-min.png";
 
 /***/ }),
 /* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/flow.7e6b8.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/flow.png";
 
 /***/ }),
 /* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/hero-love-compatibility-min.9a82b.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/hero-love-compatibility-min.png";
 
 /***/ }),
 /* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/innocent-love-compatibility-min.80ea1.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/innocent-love-compatibility-min.png";
 
 /***/ }),
 /* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/jester-love-compatibility-min.07aca.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/jester-love-compatibility-min.png";
 
 /***/ }),
 /* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/key-2114459_1920.89ab9.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/key-2114459_1920.png";
 
 /***/ }),
 /* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/love-compatibility-min.83294.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/love-compatibility-min.png";
 
 /***/ }),
 /* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/lover-love-compatibility-min.b1e59.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/lover-love-compatibility-min.png";
 
 /***/ }),
 /* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/magician-love-compatibility-min.bee52.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/magician-love-compatibility-min.png";
 
 /***/ }),
 /* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/member-love-compatibility-min.a075c.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/member-love-compatibility-min.png";
 
 /***/ }),
 /* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/new-deluxe-archetype-report-with-bonuses.49b0a.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/new-deluxe-archetype-report-with-bonuses.png";
 
 /***/ }),
 /* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/outlaw-love-compatibility-min.d393e.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/outlaw-love-compatibility-min.png";
 
 /***/ }),
 /* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/ruler-love-compatibility-min.ea163.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/ruler-love-compatibility-min.png";
 
 /***/ }),
 /* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/safe-shield-protection.9052a.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/safe-shield-protection.png";
 
 /***/ }),
 /* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/sage-love-compatibility-min.bb138.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/sage-love-compatibility-min.png";
 
 /***/ }),
 /* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/test-raisonnement.54e54.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/test-raisonnement.png";
 
 /***/ }),
 /* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/tree.6b8bf.png";
+module.exports = __webpack_require__.p + "build/assets/images/misc/tree.png";
 
 /***/ }),
 /* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/60-day-money-back-guarantee.87c00.png";
+module.exports = __webpack_require__.p + "build/assets/images/pop-up/60-day-money-back-guarantee.png";
 
 /***/ }),
 /* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/dar-priceless.bb72e.png";
+module.exports = __webpack_require__.p + "build/assets/images/pop-up/dar-priceless.png";
 
 /***/ }),
 /* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/new-deluxe-archetype-report-with-bonuses.eb201.png";
+module.exports = __webpack_require__.p + "build/assets/images/pop-up/new-deluxe-archetype-report-with-bonuses.png";
 
 /***/ }),
 /* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/shield-ok-icon-150x150.1ed83.png";
+module.exports = __webpack_require__.p + "build/assets/images/pop-up/shield-ok-icon-150x150.png";
 
 /***/ }),
 /* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/template for popup1.4db8e.pdf";
+module.exports = __webpack_require__.p + "build/assets/images/pop-up/template for popup1.pdf";
 
 /***/ }),
 /* 204 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/globe.4cfe2.png";
+module.exports = __webpack_require__.p + "build/assets/images/script-images/globe.png";
 
 /***/ }),
 /* 205 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/spiritual.3990f.png";
+module.exports = __webpack_require__.p + "build/assets/images/script-images/spiritual.png";
 
 /***/ }),
 /* 206 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/tree.6b8bf.png";
+module.exports = __webpack_require__.p + "build/assets/images/script-images/tree.png";
 
 /***/ }),
 /* 207 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/globe.4cfe2.png";
+module.exports = __webpack_require__.p + "build/assets/images/script/globe.png";
 
 /***/ }),
 /* 208 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/spiritual.3990f.png";
+module.exports = __webpack_require__.p + "build/assets/images/script/spiritual.png";
 
 /***/ }),
 /* 209 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/tree.6b8bf.png";
+module.exports = __webpack_require__.p + "build/assets/images/script/tree.png";
 
 /***/ }),
 /* 210 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/outlaw.49fe8.pdf";
+module.exports = __webpack_require__.p + "build/assets/pdfs/outlaw.pdf";
 
 /***/ }),
 /* 211 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "build/assets/comment-logo.14d6d.png";
+module.exports = __webpack_require__.p + "build/components/comments/assets/comment-logo.png";
 
 /***/ }),
 /* 212 */
