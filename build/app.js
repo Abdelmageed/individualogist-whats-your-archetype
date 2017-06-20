@@ -14463,7 +14463,7 @@ class Slider extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
         h.img({ src: __webpack_require__(17) }),
       ]),
       h.div('.content', { onclick: e => this.playPause() }, [
-        h.div('.play-pause.ion-ios-arrow-dropright-circle', {class: this.state.audioPaused ? 'visible': ''}),
+        h.div('.play-pause', {class: this.state.audioPaused ? 'visible': ''}),
         h.div('.text', [this.state.currentLine
           ? h(__WEBPACK_IMPORTED_MODULE_3_preact_markup___default.a, { markup: this.state.currentLine })
           // ? h.pre(JSON.stringify(this.state.currentLine, null, 2))
