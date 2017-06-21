@@ -15021,7 +15021,7 @@ __WEBPACK_IMPORTED_MODULE_5_localforage___default.a.config({ version: 1, });
 __WEBPACK_IMPORTED_MODULE_5_localforage___default.a.getItem('state').then(data => {
   __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_preact__["render"])(h(App, data), target)
   const footer = document.getElementById('whats-your-archetype_footer') || document.body;
-  __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_preact__["render"])(__WEBPACK_IMPORTED_MODULE_11__components__["g" /* footer */], target);
+  __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_preact__["render"])(__WEBPACK_IMPORTED_MODULE_11__components__["g" /* footer */], footer);
 });
 
 
