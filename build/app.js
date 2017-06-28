@@ -10117,12 +10117,12 @@ class App extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
   componentWillMount() {
     if ('new' in url.query) {
       __WEBPACK_IMPORTED_MODULE_3_localforage___default.a.removeItem('state');
+    } else {
+      this.setState({
+        quizData: this.props.quizData,
+        formData: this.props.formData,
+      });
     }
-
-    this.setState({
-      quizData: this.props.quizData,
-      formData: this.props.formData,
-    });
 
     if ('dev' in url.query) {
       // console.log({ url.query });
