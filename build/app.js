@@ -10146,6 +10146,7 @@ class App extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
     }
 
     if ('aweberSucccess' in url.query && this.state.formData) {
+      window.history.replaceState({}, 'page2', cleanUrl);
       const hash = __WEBPACK_IMPORTED_MODULE_1_quick_hash___default()(this.state.formData.name + this.state.formData.email);
       if (url.query.aweberSucccess === hash) {
         console.log(`authenticated!`);
@@ -10154,7 +10155,7 @@ class App extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
         });
       } else {
         console.log(`Couldn't authenticate...`);
-        console.log({ formData: this.state.formData, hash });
+        console.log({ formData: this.state.formData, hash, aweberSucccess: url.query.aweberSucccess });
       }
     }
 
