@@ -12365,6 +12365,7 @@ class Form extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
       h.form({
         onSubmit: e => {
           this.props.onSubmit(this.state);
+          console.log(`hash created:`, { hash }, this.state);
         },
         action: 'https://www.aweber.com/scripts/addlead.pl',
         method: 'POST',
