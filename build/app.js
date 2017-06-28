@@ -10111,11 +10111,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 const h = __WEBPACK_IMPORTED_MODULE_4_preact_hyperstyler___default()(__WEBPACK_IMPORTED_MODULE_7__app_styl___default.a);
 
 window.url = __WEBPACK_IMPORTED_MODULE_2_url___default.a.parse(location + '', true);
+window.cleanUrl = __WEBPACK_IMPORTED_MODULE_2_url___default.a.format(Object.assign({}, url, { query: {}, search: null }));
 
 class App extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
 
   componentWillMount() {
     if ('new' in url.query) {
+      window.history.replaceState({}, 'page2', cleanUrl);
       __WEBPACK_IMPORTED_MODULE_3_localforage___default.a.removeItem('state');
     } else {
       this.setState({
@@ -10125,6 +10127,7 @@ class App extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
     }
 
     if ('dev' in url.query) {
+      window.history.replaceState({}, 'page2', cleanUrl);
       // console.log({ url.query });
       if ('report' in url.query) {
         if (url.query.report === 'free') {
