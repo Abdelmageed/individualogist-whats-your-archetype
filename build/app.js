@@ -12688,10 +12688,10 @@ class ReportFree extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
       if (e.keyCode === 32) {
         // space
         this.playPause();
-        if (window.pageYOffset < 10 && this.audioEl.paused && !this.spacePausedScrolledOnce) {
-          this.spacePausedScrolledOnce = true;
-          return;
-        }
+        // if (window.pageYOffset < 10 && this.audioEl.paused && !this.spacePausedScrolledOnce) {
+        //   this.spacePausedScrolledOnce = true;
+        //   return;
+        // }
       } else if (e.keyCode === 38 && e.ctrlKey) {
         // ctrl + up
         const before = this.audioEl.playbackRate;
