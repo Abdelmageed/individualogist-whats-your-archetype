@@ -10211,7 +10211,7 @@ const target = document.getElementById('whats-your-archetype_app') || document.b
 __WEBPACK_IMPORTED_MODULE_3_localforage___default.a.config({ name: 'app-v2v1211' });
 __WEBPACK_IMPORTED_MODULE_3_localforage___default.a.getItem('state').then(data => {
   // data = {}
-  console.log(`data:`, data);
+  console.log(`localforage data:`, data);
   // render(h(App, data), target)
   __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_preact__["render"])(h(App, Object.assign({}, data)), target)
   const footer = document.getElementById('whats-your-archetype_footer') || document.body;
@@ -12600,7 +12600,7 @@ class Quiz extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
                     archetypes: this.state.archetypes,
                   });
                   setTimeout(() => this.props.onFinish(this.state), 333);
-                  console.log(this.state);
+                  // console.log(this.state);
                 }
               }
             }), a.answer])))
@@ -12610,7 +12610,7 @@ class Quiz extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
   }
 
   componentDidUpdate() {
-    console.log(`this.firstCheckEl:`, this.firstCheckEl);
+    // console.log(`this.firstCheckEl:`, this.firstCheckEl);
     if (this.firstCheckEl) this.firstCheckEl.focus()
   }
 
