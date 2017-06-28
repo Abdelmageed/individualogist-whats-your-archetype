@@ -10151,6 +10151,7 @@ class App extends __WEBPACK_IMPORTED_MODULE_0_preact__["Component"] {
         });
       } else {
         console.log(`Couldn't authenticate...`);
+        console.log({ hash });
       }
     }
 
